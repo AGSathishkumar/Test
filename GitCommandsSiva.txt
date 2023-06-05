@@ -1,0 +1,46 @@
+
+GIT Git commands every automation QA engineer should know👇🏻👇🏻👇🏻
+
+🔹git init -b <branch_name> ➿ Initializes a new Git repository and creates a new branch with the specified name.
+
+🔸git add -p ➿Allows you to select which changes to add to the staging area.
+
+🔹git commit -m "Commit message" ➿ Allows you to specify a custom commit message.
+
+🔸git status -v ➿ Provides more detailed information about the status of the repository.
+
+🔹git branch -a ➿Lists all branches in the repository, including remote branches.
+
+🔸git checkout -b <new_branch_name> ➿ Creates a new branch and switches to it.
+
+🔹git merge <branch_name> ➿ Merges the specified branch into the current branch.
+
+🔸git push origin <branch_name> ➿ Pushes the current branch to the remote repository called "origin".
+
+🔹git fetch origin ➿ Fetches changes from the remote repository called "origin".
+
+🔸git reset --hard <commit_hash> ➿ Resets the working directory to the specified commit.
+
+🔹git checkout . ➿ Undoes changes to all files in the working directory.
+
+🔸git log --oneline ➿ Displays the history of commits in a single line format.
+
+🔹git stash ➿ Saves the current state of the working directory to the stash.
+
+🔸git stash pop ➿ Restores the current state of the working directory from the stash.
+
+🔹git branch -d <local_branch_name> ➿ allows you to delete a local branch only if you’re currently not in and viewing or having unpushed commits or unmerged changes.
+
+🔸git branch -D <local_branch_name> ➿ Here -D is an alias for - - delete - - force It deletes a local branch fircefully even after having unmerged changes (use this with caution⛔️)
+
+🔹git push origin -d <remote_branch_name> ➿ allows you to delete a remote branch in remote repo named origin
+
+✨Additional tips✨
+
+🌱Use a consistent naming convention for your branches. This will make it easier to track your changes and identify which branch is associated with a particular feature or bug fix.
+
+🌱Use descriptive commit messages. This will help you and others understand what changes were made in each commit.
+
+🌱Use a pull request workflow. This will allow you to get feedback on your changes before merging them into the main branch.
+
+🌱Use a continuous integration server. This will help you to automatically test your code after each commit.
